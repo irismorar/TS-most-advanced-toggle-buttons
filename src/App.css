@@ -1,3 +1,38 @@
 * {
   box-sizing: border-box;
 }
+
+body {
+  margin: 0;
+  font-size: 4rem;
+  font-family:'Courier New', Courier, monospace;
+}
+
+main {
+  margin: 0 auto;
+  width: 95%;
+}
+
+.max-active-buttons-container {
+  margin-bottom: 5rem;
+  text-align: center;
+}
+
+.add-remove-buttons-container {
+  width: 85.8%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+button {
+  font-size: inherit;
+  font-weight: 700;
+}
+
+button:active {
+  transform: scale(.95);
+}
+
+
