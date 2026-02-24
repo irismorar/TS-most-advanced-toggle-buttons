@@ -9,7 +9,7 @@ export function AddRemoveButton({ handleClick, text }: Props) {
       onClick={handleClick}
       style={{
         backgroundColor: "hsla(52, 68%, 40%, 1)",
-        color: "hsla(0, 100%, 0%, .5)",
+        color: "hsla(0, 100%, 0%, .7)",
         width: "6rem",
         height: "6rem",
         margin: ".3rem",

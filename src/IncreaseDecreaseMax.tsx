@@ -8,8 +8,8 @@ export function IncreaseDecreaseMax({ handleClick, text }: Props) {
     <button
       onClick={handleClick}
       style={{
-        backgroundColor: "rgb(19, 81, 24)",
-        color: "hsla(0, 0%, 100%, .7)",
+        backgroundColor: "#78AB21",
+        color: "hsla(0, 100%, 0%, .7)",
         width: "6rem",
         height: "6rem",
         margin: "2rem",
